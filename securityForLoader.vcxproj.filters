@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="print.cpp">
+      <Filter>Design</Filter>
+    </ClCompile>
+    <ClCompile Include="protection.cpp">
+      <Filter>Protection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="keyauth.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="print.h">
+      <Filter>Design</Filter>
+    </ClInclude>
+    <ClInclude Include="protection.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>XorStr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ded16f57-26b9-4a17-9c91-33f8de8b1d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{56060872-2bab-4d4f-bf1e-605db445bd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Design">
+      <UniqueIdentifier>{3d6da165-e2ac-42fb-ad32-65676a8f9272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XorStr">
+      <UniqueIdentifier>{d85de6bd-6985-459e-831d-5dae54bc61a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{98cd0ede-5e35-4a00-8c62-a7b363d3c3ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib">
+      <Filter>Auth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
